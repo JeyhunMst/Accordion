@@ -1,0 +1,37 @@
+@charset "UTF-8";
+.d-none {
+  display: none;
+}
+
+.accordion {
+  width: 40%;
+  height: 50px;
+  border: 1px solid grey;
+  transition: all 0.5s;
+  display: block;
+}
+
+.accordion::after {
+  content: "➕";
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.accordion:hover {
+  background-color: grey;
+}
+
+.info {
+  max-width: 40%;
+  border: 1px solid grey;
+}
+
+.active {
+  background-color: grey;
+}
+
+.active::after {
+  content: "➖";
+}/*# sourceMappingURL=style.css.map */
